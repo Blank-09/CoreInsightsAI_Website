@@ -204,6 +204,7 @@ export default function CareersPage() {
                             accept=".pdf,.doc,.docx"
                             onChange={(e) => onChange(e.target.files)}
                             {...field}
+                            value={undefined}
                           />
                         </FormControl>
                         <p className="text-sm text-muted-foreground">
