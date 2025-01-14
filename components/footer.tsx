@@ -44,14 +44,14 @@ export function Footer() {
           <div>
             <h3 className="text-lg font-semibold">Contact</h3>
             <ul className="mt-4 space-y-2">
-              <li className="text-sm text-muted-foreground">
+              {/* <li className="text-sm text-muted-foreground">
                 123 Analytics Street
               </li>
               <li className="text-sm text-muted-foreground">
                 Tech City, TC 12345
-              </li>
+              </li> */}
               <li className="text-sm text-muted-foreground">
-                contact@coreinsights.ai
+                support@coreinsightsai.com
               </li>
             </ul>
           </div>

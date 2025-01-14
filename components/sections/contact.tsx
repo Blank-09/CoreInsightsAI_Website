@@ -71,7 +71,7 @@ export function ContactSection() {
                 AI.
               </p>
               <div className="space-y-2">
-                <p>Email: contact@coreinsights.ai</p>
+                <p>Email: support@coreinsightsai.com</p>
                 {/* <p>Phone: +1 (555) 123-4567</p>
                 <p>Location: Tech City, TC 12345</p> */}
               </div>
