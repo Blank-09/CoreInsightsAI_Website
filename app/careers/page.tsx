@@ -51,11 +51,11 @@ export default function CareersPage() {
   });
 
   function onSubmit(values: z.infer<typeof formSchema>) {
-    toast({
-      title: "Application submitted!",
-      description: "We'll review your application and get back to you soon.",
-    });
-    form.reset();
+    // toast({
+    //   title: "Application submitted!",
+    //   description: "We'll review your application and get back to you soon.",
+    // });
+    // form.reset();
   }
 
   return (
@@ -114,7 +114,7 @@ export default function CareersPage() {
                       <FormItem>
                         <FormLabel>Full Name</FormLabel>
                         <FormControl>
-                          <Input placeholder="John Doe" {...field} />
+                          <Input placeholder="Your Full Name" {...field} />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -127,7 +127,7 @@ export default function CareersPage() {
                       <FormItem>
                         <FormLabel>Email</FormLabel>
                         <FormControl>
-                          <Input placeholder="john@example.com" {...field} />
+                          <Input placeholder="Your Email" {...field} />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -140,7 +140,7 @@ export default function CareersPage() {
                       <FormItem>
                         <FormLabel>Phone</FormLabel>
                         <FormControl>
-                          <Input placeholder="+1 (555) 000-0000" {...field} />
+                          <Input placeholder="Contact Number" {...field} />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -154,7 +154,7 @@ export default function CareersPage() {
                         <FormLabel>Position</FormLabel>
                         <FormControl>
                           <Input
-                            placeholder="Senior Data Scientist"
+                            placeholder="eg. Senior Data Scientist"
                             {...field}
                           />
                         </FormControl>

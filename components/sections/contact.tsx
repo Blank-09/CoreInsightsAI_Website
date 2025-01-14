@@ -37,11 +37,11 @@ export function ContactSection() {
   });
 
   function onSubmit(values: z.infer<typeof formSchema>) {
-    toast({
-      title: "Message sent!",
-      description: "We'll get back to you as soon as possible.",
-    });
-    form.reset();
+    // toast({
+    //   title: "Message sent!",
+    //   description: "We'll get back to you as soon as possible.",
+    // });
+    // form.reset();
   }
 
   return (
@@ -72,8 +72,8 @@ export function ContactSection() {
               </p>
               <div className="space-y-2">
                 <p>Email: contact@coreinsights.ai</p>
-                <p>Phone: +1 (555) 123-4567</p>
-                <p>Location: Tech City, TC 12345</p>
+                {/* <p>Phone: +1 (555) 123-4567</p>
+                <p>Location: Tech City, TC 12345</p> */}
               </div>
             </div>
           </div>
@@ -90,7 +90,7 @@ export function ContactSection() {
                     <FormItem>
                       <FormLabel>Name</FormLabel>
                       <FormControl>
-                        <Input placeholder="John Doe" {...field} />
+                        <Input placeholder="Your Full Name" {...field} />
                       </FormControl>
                       <FormMessage />
                     </FormItem>
@@ -103,7 +103,7 @@ export function ContactSection() {
                     <FormItem>
                       <FormLabel>Email</FormLabel>
                       <FormControl>
-                        <Input placeholder="john@example.com" {...field} />
+                        <Input placeholder="Your Email" {...field} />
                       </FormControl>
                       <FormMessage />
                     </FormItem>
