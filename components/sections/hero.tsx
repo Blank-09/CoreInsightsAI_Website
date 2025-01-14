@@ -12,7 +12,7 @@ export function HeroSection() {
       {/* Full-screen background image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/hero-img.png"
+          src="./hero-img.png"
           alt="Data Analytics Visualization"
           fill
           className="object-cover brightness-75"

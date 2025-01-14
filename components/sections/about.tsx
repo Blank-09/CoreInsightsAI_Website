@@ -57,7 +57,7 @@ export function AboutSection() {
             <div className="mx-auto w-[80%] aspect-square overflow-hidden rounded-2xl bg-secondary">
               <div className="relative h-full">
                 <Image
-                  src="/team-collaboration.png"
+                  src="./team-collaboration.png"
                   alt="Data Stewards"
                   fill
                   className="object-cover"
